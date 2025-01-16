@@ -1,5 +1,5 @@
 {
-  "name": "offer-up-agservers",
+  "name": "my-project-agservers",
   "version": "0.0.1",
   "description": "Agoric server instances for dapp-offer-up",
   "private": true,
