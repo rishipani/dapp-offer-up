@@ -12280,6 +12280,90 @@ __metadata:
   languageName: node
   linkType: hard
 
+"my-project-contract@workspace:contract":
+  version: 0.0.0-use.local
+  resolution: "my-project-contract@workspace:contract"
+  dependencies:
+    "@agoric/deploy-script-support": "npm:^0.10.4-u16.2"
+    "@agoric/ertp": "npm:^0.16.3-u16.1"
+    "@agoric/eslint-config": "npm:^0.4.1-u16.0"
+    "@agoric/vats": "npm:dev"
+    "@agoric/zoe": "npm:^0.26.3-u16.1"
+    "@endo/bundle-source": "npm:^3.4.0"
+    "@endo/eslint-plugin": "npm:^2.2.1"
+    "@endo/far": "npm:^1.1.5"
+    "@endo/init": "npm:^1.1.4"
+    "@endo/marshal": "npm:^1.5.3"
+    "@endo/patterns": "npm:^1.4.3"
+    "@endo/promise-kit": "npm:^1.1.5"
+    "@endo/ses-ava": "npm:^1.2.5"
+    "@jessie.js/eslint-plugin": "npm:^0.4.1"
+    agoric: "npm:^0.22.0-u16.2"
+    ava: "npm:^5.3.0"
+    eslint: "npm:^8.57.0"
+    eslint-config-airbnb-base: "npm:^15.0.0"
+    eslint-config-jessie: "npm:^0.0.6"
+    eslint-config-prettier: "npm:^9.1.0"
+    eslint-plugin-ava: "npm:^14.0.0"
+    eslint-plugin-github: "npm:^4.10.0"
+    eslint-plugin-import: "npm:^2.29.1"
+    eslint-plugin-jsdoc: "npm:^48.5.2"
+    eslint-plugin-prettier: "npm:^5.1.3"
+    import-meta-resolve: "npm:^2.2.1"
+    prettier: "npm:^3.0.3"
+    prettier-plugin-jsdoc: "npm:^1.0.0"
+    typescript: "npm:^5.5.3"
+    typescript-eslint: "npm:^7.2.0"
+  languageName: unknown
+  linkType: soft
+
+"my-project-ui@workspace:ui":
+  version: 0.0.0-use.local
+  resolution: "my-project-ui@workspace:ui"
+  dependencies:
+    "@agoric/notifier": "npm:^0.7.0-u16.1"
+    "@agoric/rpc": "npm:0.10.0"
+    "@agoric/store": "npm:^0.9.3-u16.0"
+    "@agoric/ui-components": "npm:^0.9.0"
+    "@agoric/web-components": "npm:^0.16.0"
+    "@testing-library/react": "npm:^14.1.2"
+    "@types/react": "npm:^18.2.15"
+    "@types/react-dom": "npm:^18.2.7"
+    "@vitejs/plugin-react": "npm:^4.0.3"
+    eslint: "npm:^8.57.0"
+    eslint-config-prettier: "npm:^9.1.0"
+    eslint-plugin-prettier: "npm:^5.1.3"
+    eslint-plugin-react-hooks: "npm:^4.6.0"
+    eslint-plugin-react-refresh: "npm:^0.4.3"
+    happy-dom: "npm:^13.3.1"
+    prettier: "npm:^3.2.4"
+    puppeteer: "npm:^21.9.0"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    ses: "npm:^1.8.0"
+    typescript: "npm:^5.0.2"
+    typescript-eslint: "npm:^7.13.1"
+    vite: "npm:^4.4.5"
+    vitest: "npm:^1.2.1"
+    zustand: "npm:^4.4.1"
+  languageName: unknown
+  linkType: soft
+
+"my-project@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "my-project@workspace:."
+  dependencies:
+    "@agoric/synpress": "npm:^3.8.4-beta.0"
+    eslint: "npm:^8.57.0"
+    eslint-config-turbo: "npm:^1.13.0"
+    eslint-plugin-chai-friendly: "npm:^0.7.4"
+    eslint-plugin-cypress: "npm:^2.15.1"
+    eslint-plugin-testing-library: "npm:^6.2.0"
+    eslint-plugin-ui-testing: "npm:^2.0.1"
+    serve: "npm:^14.2.1"
+  languageName: unknown
+  linkType: soft
+
 "n-readlines@npm:^1.0.0":
   version: 1.0.1
   resolution: "n-readlines@npm:1.0.1"
@@ -12679,90 +12763,6 @@ __metadata:
   checksum: 10c0/520aaac7ea701618eacf000fc96ae458e20e13b0569845800fc582f81b386731ab22d55354b4915d58171db00e79cfcd09c1638c02f89577ef092b38c65b7d81
   languageName: node
   linkType: hard
-
-"offer-up-contract@workspace:contract":
-  version: 0.0.0-use.local
-  resolution: "offer-up-contract@workspace:contract"
-  dependencies:
-    "@agoric/deploy-script-support": "npm:^0.10.4-u16.2"
-    "@agoric/ertp": "npm:^0.16.3-u16.1"
-    "@agoric/eslint-config": "npm:^0.4.1-u16.0"
-    "@agoric/vats": "npm:dev"
-    "@agoric/zoe": "npm:^0.26.3-u16.1"
-    "@endo/bundle-source": "npm:^3.4.0"
-    "@endo/eslint-plugin": "npm:^2.2.1"
-    "@endo/far": "npm:^1.1.5"
-    "@endo/init": "npm:^1.1.4"
-    "@endo/marshal": "npm:^1.5.3"
-    "@endo/patterns": "npm:^1.4.3"
-    "@endo/promise-kit": "npm:^1.1.5"
-    "@endo/ses-ava": "npm:^1.2.5"
-    "@jessie.js/eslint-plugin": "npm:^0.4.1"
-    agoric: "npm:^0.22.0-u16.2"
-    ava: "npm:^5.3.0"
-    eslint: "npm:^8.57.0"
-    eslint-config-airbnb-base: "npm:^15.0.0"
-    eslint-config-jessie: "npm:^0.0.6"
-    eslint-config-prettier: "npm:^9.1.0"
-    eslint-plugin-ava: "npm:^14.0.0"
-    eslint-plugin-github: "npm:^4.10.0"
-    eslint-plugin-import: "npm:^2.29.1"
-    eslint-plugin-jsdoc: "npm:^48.5.2"
-    eslint-plugin-prettier: "npm:^5.1.3"
-    import-meta-resolve: "npm:^2.2.1"
-    prettier: "npm:^3.0.3"
-    prettier-plugin-jsdoc: "npm:^1.0.0"
-    typescript: "npm:^5.5.3"
-    typescript-eslint: "npm:^7.2.0"
-  languageName: unknown
-  linkType: soft
-
-"offer-up-ui@workspace:ui":
-  version: 0.0.0-use.local
-  resolution: "offer-up-ui@workspace:ui"
-  dependencies:
-    "@agoric/notifier": "npm:^0.7.0-u16.1"
-    "@agoric/rpc": "npm:0.10.0"
-    "@agoric/store": "npm:^0.9.3-u16.0"
-    "@agoric/ui-components": "npm:^0.9.0"
-    "@agoric/web-components": "npm:^0.16.0"
-    "@testing-library/react": "npm:^14.1.2"
-    "@types/react": "npm:^18.2.15"
-    "@types/react-dom": "npm:^18.2.7"
-    "@vitejs/plugin-react": "npm:^4.0.3"
-    eslint: "npm:^8.57.0"
-    eslint-config-prettier: "npm:^9.1.0"
-    eslint-plugin-prettier: "npm:^5.1.3"
-    eslint-plugin-react-hooks: "npm:^4.6.0"
-    eslint-plugin-react-refresh: "npm:^0.4.3"
-    happy-dom: "npm:^13.3.1"
-    prettier: "npm:^3.2.4"
-    puppeteer: "npm:^21.9.0"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    ses: "npm:^1.8.0"
-    typescript: "npm:^5.0.2"
-    typescript-eslint: "npm:^7.13.1"
-    vite: "npm:^4.4.5"
-    vitest: "npm:^1.2.1"
-    zustand: "npm:^4.4.1"
-  languageName: unknown
-  linkType: soft
-
-"offer-up@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "offer-up@workspace:."
-  dependencies:
-    "@agoric/synpress": "npm:^3.8.4-beta.0"
-    eslint: "npm:^8.57.0"
-    eslint-config-turbo: "npm:^1.13.0"
-    eslint-plugin-chai-friendly: "npm:^0.7.4"
-    eslint-plugin-cypress: "npm:^2.15.1"
-    eslint-plugin-testing-library: "npm:^6.2.0"
-    eslint-plugin-ui-testing: "npm:^2.0.1"
-    serve: "npm:^14.2.1"
-  languageName: unknown
-  linkType: soft
 
 "on-finished@npm:2.4.1":
   version: 2.4.1
